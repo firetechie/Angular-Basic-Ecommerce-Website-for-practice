@@ -1,0 +1,24 @@
+.about{
+    background-color: #e0ecfc;
+    padding: 50px 100px;
+}
+.follow a{
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+}
+.fab{
+    font-size: 25px;
+}
+@media screen and (max-width:600px){
+    .about{
+        background-color: #e0ecfc;
+        padding: 50px 20px;
+        text-align: justify;
+    }
+    .follow a{
+        padding: 5px;
+        color: black;
+        font-weight: bold;
+    }
+}

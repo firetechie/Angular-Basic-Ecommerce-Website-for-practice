@@ -1,0 +1,35 @@
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" routerLink="">
+        <img src="../assets/logo.png" alt="E-Learning" class="d-inline-block align-text-top">
+    </a>
+    <!-- <a class="navbar-brand" routerLink=""><b>E-Learning</b></a> -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link active" aria-current="page" routerLink="">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="about">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="course">Course</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="joinnow">Joinnow</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="cart"><i class="fas fa-shopping-cart"></i></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<router-outlet></router-outlet>
+
+<!-- footer -->
+<footer class="footer">
+    <p>&copy; E-Learning 2021; All Rights Reserved.</p>
+</footer>
